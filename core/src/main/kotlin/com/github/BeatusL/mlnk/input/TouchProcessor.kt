@@ -67,7 +67,7 @@ class TouchProcessor (
 
 
     companion object {
-        const val inputScale = 1 / 60f
+        const val inputScale = 1 / 80f
         const val height = 16f
     }
 

@@ -95,7 +95,7 @@ class PhysicsSystem(
 
 
     companion object {
-        const val upperWorldBound = 18f
+        const val upperWorldBound = 16f
         const val lowerWorldBound = -1f
         const val timeStep = 1/60f
         private val log = logger<PhysicsSystem>()

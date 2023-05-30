@@ -114,7 +114,7 @@ class GameScreen: KtxScreen {
 
     private fun spawnEnemy() {
         val type = listOf("B", "M", "S").random()
-        val y = 15f
+        val y = gameStageHeight - 1.5f
         val x = Random.nextFloat() * 9
 
         gStage.fire(ObjCreation(type, Vector2(x, y)))

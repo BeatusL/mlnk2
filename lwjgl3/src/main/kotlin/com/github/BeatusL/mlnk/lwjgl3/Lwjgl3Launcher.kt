@@ -10,7 +10,7 @@ import com.github.BeatusL.mlnk.game
 fun main() {
     Lwjgl3Application(game, Lwjgl3ApplicationConfiguration().apply {
         setTitle("MLNK")
-        setWindowedMode(540, 960)
+        setWindowedMode(720, 1280)
         setWindowIcon(*(arrayOf(128, 64, 32, 16).map { "libgdx$it.png" }.toTypedArray()))
     })
 }
